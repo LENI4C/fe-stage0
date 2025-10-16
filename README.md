@@ -4,7 +4,7 @@ A responsive, accessible Profile Card component built with semantic HTML, modern
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://lennyfe0.vercel.app) - _Replace with your actual deployment URL_
+[View Live Demo](https://fe-stage0.vercel.app) - _https://fe-stage0.vercel.app_
 
 ## 📋 Features
 
