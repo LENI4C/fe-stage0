@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="developer" content="leni4c" />
+        <meta name="description" content="HNG internship FE task 0" />
+         
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="images/favicon_io/favicon-16x16.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="images/favicon_io/favicon-32x32.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="images/favicon_io/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="images/favicon_io/android-chrome-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="512x512"
+            href="images/favicon_io/android-chrome-512x512.png"
+        />
+        <link
+            rel="manifest"
+            href="images/favicon_io/site.webmanifest"
+        />
+        <title>Profile Card - HNG Stage 0</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <main class="container">
+            <article class="profile-card" data-testid="test-profile-card">
+                <header class="profile-header">
+                    <figure class="avatar-container">
+                        <img
+                            src="images/lenny.jpg"
+                            alt="Profile picture of Leni4c"
+                            class="avatar"
+                            data-testid="test-user-avatar"
+                        />
+                        <figcaption class="avatar-caption">
+                            Profile Picture
+                        </figcaption>
+                    </figure>
+
+                    <div class="profile-info">
+                        <h2 class="user-name" data-testid="test-user-name">
+                            Leni4c
+                        </h2>
+                        <p class="user-bio" data-testid="test-user-bio">
+                            Frontend Engineer (Web) with 3+ years of
+                            experience building accessible and responsive web
+                            applications. I love creating user-friendly
+                            interfaces and exploring technologies.
+                        </p>
+                        <div
+                            class="current-time"
+                            data-testid="test-user-time"
+                        ></div>
+                    </div>
+                </header>
+
+                <nav
+                    class="social-links"
+                    data-testid="test-user-social-links"
+                    aria-label="Social media links"
+                >
+                    <ul class="social-list">
+                        <li>
+                            <a
+                                href="https://x.com/leni4c"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="social-link"
+                                data-testid="test-user-social-twitter"
+                                aria-label="Follow Leni4c on Twitter"
+                            >
+                                Twitter
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://linkedin.com/in/leni4c"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="social-link"
+                                data-testid="test-user-social-linkedin"
+                                aria-label="Connect with Leni4c on LinkedIn"
+                            >
+                                LinkedIn
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/leni4c"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="social-link"
+                                data-testid="test-user-social-github"
+                                aria-label="View Leni4c's GitHub profile"
+                            >
+                                GitHub
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <section class="hobbies-section">
+                    <h3>Hobbies</h3>
+                    <ul class="hobbies-list" data-testid="test-user-hobbies">
+                        <li>Coding</li>
+                        <li>Learning</li>
+                        <li>Gaming</li>
+                        <li>Reading</li>
+                        <li>Exploring</li>
+                    </ul>
+                </section>
+
+                <section class="dislikes-section">
+                    <h3>Dislikes</h3>
+                    <ul class="dislikes-list" data-testid="test-user-dislikes">
+                        <li>... Processing</li>
+                        <li>... Processing</li>
+                        <li>... Processing</li>
+                    </ul>
+                </section>
+            </article>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>
